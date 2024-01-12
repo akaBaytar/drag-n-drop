@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  padding-left: 1rem;
+  letter-spacing: 0.15rem;
+  color: #8b5cf6;
+}
+
+form {
+  background-color: #ddd6fe !important;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+label {
+  font-weight: 500;
+}
+
+input,
+textarea {
+  font: inherit;
+  padding: 0.25rem 0.5rem;
+  min-width: 100%;
+  max-width: 30rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: #f3f3f3;
+  transition: background-color 0.2s ease-in-out;
+}
+
+textarea {
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  background-color: white;
+}
+
+button {
+  font: inherit;
+  background-color: #8b5cf6;
+  border: 1px solid #8b5cf6;
+  cursor: pointer;
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease-in-out, outline 0.2s ease-in-out;
+}
+
+button:focus {
+  outline: #f3f3f3 0.25rem solid;
+}
+
+button:hover,
+button:active {
+  background-color: #6d28d9;
+  border-color: #6d28d9;
+}
+
+.projects {
+  margin: 1rem;
+  border: 1px solid #f43f5e;
+  border-radius: 0.5rem;
+}
+
+.projects header {
+  background-color: #f43f5e;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.projects h2 {
+  margin: 0;
+  color: white;
+}
+
+.projects ul {
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+.projects li {
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.26);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  word-wrap: break-word;
+  background-color: white;
+  cursor: grab;
+}
+
+.projects li h2 {
+  color: #f43f5e;
+  margin: 0.5rem 0;
+}
+
+.projects li span {
+  color: #f7f7f7;
+  font-size: 0.8rem;
+  background-color: #f43f5e;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.project li p {
+  margin: 0;
+}
+
+.droppable {
+  background-color: #ffe4e6;
+}
+
+#user-input {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #f7f7f7;
+  border-radius: 0.5rem;
+}
+
+#Finished-projects {
+  border-color: #8b5cf6;
+}
+
+#Finished-projects header {
+  background-color: #8b5cf6;
+}
+
+#Finished-projects .droppable {
+  background-color: #f3e8ff;
+}
+
+#Finished-projects li h2 {
+  color: #8b5cf6;
+}
+
+#Finished-projects li span {
+  background-color: #8b5cf6;
+}
